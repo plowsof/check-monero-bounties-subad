@@ -20,7 +20,7 @@ def get_bounty_address(data):
                         donation_address = word
                         #print(f"title: {post['title']}\nid: {post['id']}\naddress: {donation_address}")
                         try:
-                            if addr_total[donation_address]:
+                            if addr_total[donation_address]:   
                                 addr_total[donation_address]["title"] = post["title"]
                         except:
                             pass
@@ -46,7 +46,6 @@ for transfer in info["in"]:
     try:
         if addr_total[address]:
             addr_total[address]["amount"] += data["amount"]
-            continue
     except:
         addr_total[address] = data
 
