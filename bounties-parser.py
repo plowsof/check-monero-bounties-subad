@@ -1,6 +1,7 @@
 import requests
 import pprint 
 from monerorpc.authproxy import AuthServiceProxy, JSONRPCException
+import csv 
 
 addr_total = {}
 
@@ -25,7 +26,6 @@ def get_bounty_address(data):
                             pass
                         #check for the spammed addresses / don't break
                         #break
-                break
 
 def get_posts(endpoint):
     info = requests.get(endpoint)
@@ -45,7 +45,7 @@ for transfer in info["in"]:
     }
     try:
         if addr_total[address]:
-            addr_total[address] += data
+            addr_total[address]["amount"] += data["amount"]
             continue
     except:
         addr_total[address] = data
@@ -59,15 +59,25 @@ get_posts("https://bounties.monero.social/api/v1/posts?view=declined")
 
 
 with open("bounty-totals.csv", "w+") as f:
-    f.write("subaddress,amount,title")
+    #f.write("subaddress,amount,title\n")
     for addr in addr_total:
         if not addr_total[addr]["title"]:
             print(addr_total[addr]["amount"])
             print(addr)
-            amnt = addr_total[addr]["amount"] * (10 ** -12)
-            print(amnt)
-        f.write(f"{addr},{addr_total[addr]['amount']},\"{addr_total[addr]['title']}\"\n")
+        amnt = addr_total[addr]["amount"] * (10 ** -12)
+        print(amnt)
+        f.write(f"{addr},{amnt},\"{addr_total[addr]['title']}\"\n")
 
 
 
+with open('bounty-totals.csv') as csv_file:
+    csv_reader = csv.reader(csv_file, delimiter=',')
+    sortedlist = sorted(csv_reader, key=lambda row: float(row[1]), reverse=True)
+    pprint.pprint(sortedlist)
 
+
+
+with open('bounty-totals.csv', "w+") as f:
+    f.write("subaddress,amount,title")
+    write = csv.writer(f)
+    write.writerows(sortedlist)
