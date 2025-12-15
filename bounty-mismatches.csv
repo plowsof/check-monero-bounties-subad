@@ -1,0 +1,11 @@
+post_id,title,total_atomic,claimed_xmr,received_xmr,delta_xmr
+49,5.011ɱ | Atomic Swaps-as-a-Service (ASaaS),6011269780061,5.011,6.011,1.000
+59,6.300ɱ | Android GUI Monero Node,7300333905529,6.300,7.300,1.000
+79,1.230ɱ | Add a skip sync feature to a Monero wallet,2440000010000,1.230,2.440,1.210
+91,2.001ɱ | TwoFish Addition To Monero,2003510557301,2.001,2.004,0.003
+99,1.610ɱ | Freeze interactions bot notifier,2820000000000,1.610,2.820,1.210
+140,1.214ɱ | Create a fork of Lnp2pBot based on Monero,2013854360265,1.214,2.014,0.800
+141,1.509ɱ | Create a fork of RoboSats based on monero,2009307121181,1.509,2.009,0.500
+168,5.004ɱ | Gamepad-controlled cryptographic multitool with offline wallet address generator,5012622832239,5.004,5.013,0.009
+196,1.515ɱ | Implement a multi-threaded/node synchronization,2815177700029,1.515,2.815,1.300
+204,1.314ɱ | Add MAC Address spoofing configuration screen to the Calamares installer (Linux),1322659543950,1.314,1.323,0.009
