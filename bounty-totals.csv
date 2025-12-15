@@ -1,4 +1,5 @@
-subaddress,amount,title89PmQeJ5egbFtwWWe5Pmb8Wgi9vTnXYyAb7Jrz1J23f9M6FW8TT9gkzH1Km7Rmi32YfKvx9FSidsrJPyZaDVPsuK6Bt72Ks,139.904268307077,140.196ɱ | i2p baked into the monero GUI
+subaddress,amount,title
+89PmQeJ5egbFtwWWe5Pmb8Wgi9vTnXYyAb7Jrz1J23f9M6FW8TT9gkzH1Km7Rmi32YfKvx9FSidsrJPyZaDVPsuK6Bt72Ks,139.904268307077,140.196ɱ | i2p baked into the monero GUI
 84DUrLDR46PhByncBAne3TN2tUKNL89Cq2QRXQPt39MhT6BeQtNqrXeMr9EhHuit3Dg3NeBfLC9e3MzR6Dre59kNUXweGKU,101.21080085,101.211ɱ | MVP Tor-based Mobile Web Application To Interact With Ledger Nano X And Haveno
 89pp5JqEqxe3vLADmRRLM7X5H4mhrxuybSf4VDn439TVCZEnRp47BYG86LmAPTwemN23VM1AtS8GARdPs1FAJv179Yoewze,55.053241153039,55.053ɱ | FeatherWallet: swap feature of COMIT XMR-BTC Atomic-Swaps
 8B3HpyZghUEepDhN7i3QMdMNoEwi8ySqfZ1YSKpHCZcZQSkuEqQb9DZQJxSj3buppE8CJ8HEQDVSrAmUpHiAcpns1G3qMVc,42.422846841688,42.423ɱ | Nostr client for Monero
@@ -395,3 +396,4 @@ subaddress,amount,title89PmQeJ5egbFtwWWe5Pmb8Wgi9vTnXYyAb7Jrz1J23f9M6FW8TT9gkzH1
 8662A3yD1jE5GW1hLMyGTRHeS8EkUTdde1gQsHKZpXxQZgF1415fJ7PcffwzAQHLY28NqGFDxvvcZRzWwhp3V7ZL5ZpRajD,0.0,0.000ɱ | Do hashrate faking with a custom pool like QUBIC to downplay QUBIC
 8C1Sq8S47GALn7ekMDKfczWn3RCVyAf2T3ViEhYWatGyTb7zksSkFJVJuyjWggXNVAP75dQ5EQvB7Bi35u9Y375u4o6aMoM,0.0,0.000ɱ | This is a test bounty
 85s1Y7uwGuMf1NwUUpvFVXbaDj9BMKX3c2qk3sVxsfEZh2QUUcnJA6xhbe1qcB1DWi7RbDAGdAtBqRyNYhXz353NLmfgh16,0.0,0.000ɱ | Test bounty 3
+
