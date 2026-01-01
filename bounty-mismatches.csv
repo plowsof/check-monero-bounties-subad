@@ -8,4 +8,4 @@ post_id,title,total_atomic,claimed_xmr,received_xmr,delta_xmr
 141,1.509ɱ | Create a fork of RoboSats based on monero,2009307121181,1.509,2.009,0.500
 168,5.004ɱ | Gamepad-controlled cryptographic multitool with offline wallet address generator,5012622832239,5.004,5.013,0.009
 196,1.515ɱ | Implement a multi-threaded/node synchronization,2815177700029,1.515,2.815,1.300
-204,1.314ɱ | Add MAC Address spoofing configuration screen to the Calamares installer (Linux),1322659543950,1.314,1.323,0.009
+204,1.314ɱ | Add MAC Address spoofing configuration screen to the Calamares installer (Linux),1329526418149,1.314,1.330,0.016
